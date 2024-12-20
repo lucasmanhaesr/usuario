@@ -10,7 +10,7 @@
     </parent>
     <groupId>br.com.ecommerce</groupId>
     <artifactId>usuario</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>usuario</name>
     <description>usuario</description>
     <url/>
@@ -70,6 +70,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>at.favre.lib</groupId>
+            <artifactId>bcrypt</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
